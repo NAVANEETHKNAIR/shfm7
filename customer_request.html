@@ -1,0 +1,41 @@
+ 
+<html>
+<head>
+<title>REQUIREMENTS ENTRY</title>
+<script>
+function submitForm(){
+ document.getElementById('frm').submit();
+}
+
+</script>
+
+</head>
+<body>
+<form action="customer_request.php" method="POST" id="frm">
+<center>
+<div class="required" >
+  <h1><div class="rqd">Required Item:
+ 
+
+
+  <select name="category" id="category"  onchange="submitForm()";> <br/><br/><br>
+  
+  
+  
+<option disabled selected value>-- Select Category  --</option>
+<option value="vegetables">Vegetable</option><br/>
+<option value="fruits">Fruits</option><br/></div></h1> 
+</select></br></br>
+</div>
+
+
+ 
+<br><br>
+
+  
+  
+ </center> 
+</form> 
+<body>
+</html>
+
